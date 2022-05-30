@@ -13,12 +13,113 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    gap: 20px;
+    gap: 10px;
 }
-#section-1 div {
-    background: rgb(61, 148, 219);
-}
+
 img {
     width: 100%;
-    size-adjust: cover;
+    height: 100%;
+    object-fit: cover;
+}
+
+#section-1 div#name {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#section-1 div#one {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#section-1 div#two {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#section-1 div#three {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#section-1 div#four {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#section-1 div#menue {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#section-1 div#pic-one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#section-1 div#pic-two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#section-1 div#pic-three {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#section-1 div#pic-four {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#section-1 div#pic-five {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#section-1 div#pic-six {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#section-1 div#pic-seven {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#section-1 div#pic-eight {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+#section-1 div#pic-nine {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#section-1 div#design {
+    color: red;
+    font-weight: 900;
+    font-size: xxx-large;
+    letter-spacing: 10px;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
